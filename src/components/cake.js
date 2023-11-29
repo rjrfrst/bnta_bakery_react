@@ -5,9 +5,10 @@ const Cake = ({cake}) => {
     return ( 
         <>
         <h3>{cake.cakeName}</h3>
-        <p>ingredients: {cake.ingredients}</p>
+        <p>ingredients: {cake.ingredients.join(' ')}</p>
         <p>price: {cake.price}</p>
         <p>rating: {cake.rating}</p>
+        <hr />
 
         </>
      );
